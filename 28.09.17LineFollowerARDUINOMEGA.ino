@@ -34,9 +34,8 @@ void loop() {
     junctionCount++;
   }
 
-  readVal = analogRead(analogPin);    // Read value from analog pin
-
-  // Convert voltage level into line position value
+  readVal = analogRead(analogPin);   
+ 
   positionVal = ((float)readVal / 921) * 70;
 
   
