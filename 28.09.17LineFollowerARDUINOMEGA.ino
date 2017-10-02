@@ -42,7 +42,6 @@ void loop() {
   if (0<positionVal && positionVal <= 14)
     moveLeftextreme();
 
-  
   else if (14 < positionVal && positionVal <= 28)
     moveLeft();
 
