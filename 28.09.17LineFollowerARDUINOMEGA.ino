@@ -38,14 +38,12 @@ void loop() {
  
   positionVal = ((float)readVal / 921) * 70;
 
-  
   if (0<positionVal && positionVal <= 14)
     moveLeftextreme();
 
   else if (14 < positionVal && positionVal <= 28)
     moveLeft();
 
-    
   else if (28 < positionVal && positionVal <= 42)
     moveForward();
     
@@ -54,7 +52,7 @@ void loop() {
   
   else if (56 < positionVal && positionVal <= 70)
     moveRightextreme();
-
+  
   else
     wait();
     
